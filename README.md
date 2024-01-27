@@ -13,3 +13,59 @@ Paper link: Waiting for update
 ![Image text](https://github.com/Bzq-Hit/HoloFormer/blob/main/fig/fig.PNG)
 
 ---
+
+## Dependencies
+
+For dependencies, you can install them by
+
+```
+pip install -r requirements.txt
+```
+
+---
+
+## Data
+
+To train HoloFormer, you need to prepare your own hologram dataset, as we do not open-source the dataset used in this research paper. For detailed information about the dataset, please refer to Section Ⅳ.A of the research paper.
+
+Once you have your dataset ready, you can choose to use our provided dataloader by placing the path of your dataset in the appropriate location in `train.py`. This allows you to start training HoloFormer from scratch. Of course, you are also free to develop your own dataloader.
+
+---
+
+## Training
+
+To train HoloFormer, you can begin the training by:
+
+```
+python3 train.py --nepoch 500 --warmup --w_loss_contrast 5 --arch HoloFormer
+```
+
+To train HoloFormer_S, you can begin the training by:
+
+```
+python3 train.py --nepoch 500 --warmup --w_loss_contrast 5 --arch HoloFormer_S
+```
+
+To train HoloFormer_T, you can begin the training by:
+
+```
+python3 train.py --nepoch 500 --warmup --w_loss_contrast 5 --arch HoloFormer_T
+```
+
+---
+
+## Citation
+
+If you find HoloFormer useful in your research, please consider citing:
+
+Waiting for update
+
+---
+
+## Contact
+
+If you have any questions or suggestions regarding this project or the research paper, please feel free to contact the author, Ziqi Bai, at 21B951029@stu.hit.edu.cn.
+
+---
+
+
