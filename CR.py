@@ -1,4 +1,3 @@
-"""contrast regularization""""""https://github.com/GlassyWu/AECR-Net/blob/main/models/CR.py"""
 import torch.nn as nn
 import torch
 from torch.nn import functional as F
@@ -6,15 +5,11 @@ import torch.nn.functional as fnn
 from torch.autograd import Variable
 import numpy as np
 from torchvision import models
-import torchvision
-
 
 class Vgg19(torch.nn.Module):
     def __init__(self, requires_grad=False):
         super(Vgg19, self).__init__()
         vgg_pretrained_features = models.vgg19(pretrained=True).features
-        # vgg_pretrained_features = models.vgg19(weights='imagenet').features
-        # vgg_pretrained_features = models.vgg19(weights=torchvision.models.vgg.VGG19_Weights.IMAGENET1K_V1).features
         
         self.slice1 = torch.nn.Sequential()
         self.slice2 = torch.nn.Sequential()
