@@ -4,7 +4,8 @@ Ziqi Bai, [Xianming Liu](https://homepage.hit.edu.cn/xmliu), [Cheng Guo](https:/
 
 ---
 
-Paper link: Waiting for update
+Paper link: https://ieeexplore.ieee.org/document/10490149
+accepted by IEEE Transactions on Computational Imaging (IEEE TCI)
 
 ---
 
@@ -58,7 +59,16 @@ python3 train.py --nepoch 500 --warmup --w_loss_contrast 5 --arch HoloFormer_T
 
 If you find HoloFormer useful in your research, please consider citing:
 
-Waiting for update
+@ARTICLE{10490149,
+author={Bai, Ziqi and Liu, Xianming and Guo, Cheng and Jiang, Kui and Jiang, Junjun and Ji, Xiangyang},
+journal={IEEE Transactions on Computational Imaging},
+title={HoloFormer: Contrastive Regularization Based Transformer for Holographic Image Reconstruction},
+year={2024},
+volume={},
+number={},
+pages={1-14},
+keywords={Image reconstruction;Transformers;Imaging;Holography;Task analysis;Image restoration;Self-supervised learning;Deep learning;holography;transformer;contrastive learning;computational imaging;lensless microscopy},
+doi={10.1109/TCI.2024.3384809}}
 
 ---
 
