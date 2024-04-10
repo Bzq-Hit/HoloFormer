@@ -60,6 +60,7 @@ python3 train.py --nepoch 500 --warmup --w_loss_contrast 5 --arch HoloFormer_T
 
 If you find HoloFormer useful in your research, please consider citing:
 
+```
 @ARTICLE{10490149,
 author={Bai, Ziqi and Liu, Xianming and Guo, Cheng and Jiang, Kui and Jiang, Junjun and Ji, Xiangyang},
 journal={IEEE Transactions on Computational Imaging},
@@ -70,6 +71,7 @@ number={},
 pages={1-14},
 keywords={Image reconstruction;Transformers;Imaging;Holography;Task analysis;Image restoration;Self-supervised learning;Deep learning;holography;transformer;contrastive learning;computational imaging;lensless microscopy},
 doi={10.1109/TCI.2024.3384809}}
+```
 
 ---
 
