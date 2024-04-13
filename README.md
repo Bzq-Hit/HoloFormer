@@ -62,15 +62,16 @@ If you find HoloFormer useful in your research, please consider citing:
 
 ```
 @ARTICLE{10490149,
-author={Bai, Ziqi and Liu, Xianming and Guo, Cheng and Jiang, Kui and Jiang, Junjun and Ji, Xiangyang},
-journal={IEEE Transactions on Computational Imaging},
-title={HoloFormer: Contrastive Regularization Based Transformer for Holographic Image Reconstruction},
-year={2024},
-volume={},
-number={},
-pages={1-14},
-keywords={Image reconstruction;Transformers;Imaging;Holography;Task analysis;Image restoration;Self-supervised learning;Deep learning;holography;transformer;contrastive learning;computational imaging;lensless microscopy},
-doi={10.1109/TCI.2024.3384809}}
+  author={Bai, Ziqi and Liu, Xianming and Guo, Cheng and Jiang, Kui and Jiang, Junjun and Ji, Xiangyang},
+  journal={IEEE Transactions on Computational Imaging}, 
+  title={HoloFormer: Contrastive Regularization Based Transformer for Holographic Image Reconstruction}, 
+  year={2024},
+  volume={10},
+  number={},
+  pages={560-573},
+  keywords={Image reconstruction;Transformers;Imaging;Holography;Task analysis;Image restoration;Self-supervised learning;Deep learning;holography;transformer;contrastive learning;computational imaging;lensless microscopy},
+  doi={10.1109/TCI.2024.3384809}}
+
 ```
 
 ---
